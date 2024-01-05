@@ -1,4 +1,5 @@
 CURR_DIR="$(cd "$(dirname "$0")" && pwd)"
+ZSH_CUSTOM=$HOME/.zsh
 plugin_name='xxh-plugin-zsh-ohmyzsh'
 
 export ZSH="$CURR_DIR/ohmyzsh"
