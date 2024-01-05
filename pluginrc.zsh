@@ -23,7 +23,7 @@ else
   if [[ $XXH_VERBOSE == '2' ]]; then
     echo $plugin_name: Set default plugins=git
   fi
-  export plugins=(git fzf ubuntu)
+  export plugins=(git fzf fzf-tab ubuntu)
 fi
 
 export DISABLE_AUTO_UPDATE=true
