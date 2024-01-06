@@ -2,7 +2,7 @@ CURR_DIR="$(cd "$(dirname "$0")" && pwd)"
 ZSH_CUSTOM=$HOME/.zsh
 plugin_name='xxh-plugin-zsh-ohmyzsh'
 
-path+=('/home/.exa/bin')
+path+=($HOME/.exa/bin)
 
 export ZSH="$CURR_DIR/ohmyzsh"
 
